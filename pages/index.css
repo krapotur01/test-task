@@ -1,0 +1,30 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/conditions/conditions.css);
+@import url(../blocks/conditions/__paragraph/conditions__paragraph.css);
+@import url(../blocks/conditions/__list/conditions__list.css);
+@import url(../blocks/conditions/__list/__item/list__item.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__items/form__items.css);
+@import url(../blocks/form/__items/form__items_1st.css);
+@import url(../blocks/form/__text/form__text.css);
+@import url(../blocks/form/__heding/form__heding.css);
+@import url(../blocks/form/__paragraph/form__paragraph.css);
+@import url(../blocks/form/__paragraph/form__paragraph_red.css);
+@import url(../blocks/form/__btn/form__btn-apltn.css);
+@import url(../blocks/form/__btn/form__btn.css);
+@import url(../blocks/form/__btn/form__btns.css);
+@import url(../blocks/form/__btn/form__download_btn-1.css);
+@import url(../blocks/form/__btn/form__download_btn-2.css);
+@import url(../blocks/form/__btn/form__upload_btn-1.css);
+@import url(../blocks/form/__btn/form__upload_btn-2.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__paragraph/info__paragraph.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

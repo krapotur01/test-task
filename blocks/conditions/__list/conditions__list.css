@@ -1,0 +1,7 @@
+.conditions__list {
+    margin-top: 12px;
+    margin-left: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

@@ -1,0 +1,8 @@
+.list__item {
+    font-size: 15px;
+    line-height: 22px;
+    list-style-type: none;
+    background: url(/image/red-disc.svg) no-repeat 0.5rem;
+    background-position: 0px 7px;
+    padding: 0px 15px;
+}
