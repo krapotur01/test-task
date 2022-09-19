@@ -6,3 +6,16 @@
     gap: 116px;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 880px) {
+    .form {
+        margin-top: 25px;
+        gap: 80px;
+    }
+  }
+
+  @media screen and (max-width: 795px) {
+    .form {
+        gap: 40px;
+    }
+  }
