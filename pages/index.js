@@ -7,8 +7,8 @@ const btnApltn = form.querySelector('.form__btn-apltn');
 const input1 = form.querySelector('#file1');
 const input2 = form.querySelector('#file2');
 
-btnDownload1.addEventListener('click', () => window.location = '../doc/письмо-1.docx');
-btnDownload2.addEventListener('click', () => window.location = '../doc/письмо-2.docx');
+btnDownload1.addEventListener('click', () => window.location = '../doc/Письмо-1.docx');
+btnDownload2.addEventListener('click', () => window.location = '../doc/Письмо-2.docx');
 
 const iconReplacement = (item, objKey) => item.style.background = objKey;
 const triggerInput = (input) => {
@@ -28,8 +28,8 @@ const triggerInput = (input) => {
 }
 
 const obj = {
-    upload1: 'url(../image/upload_button_1.svg) no-repeat',
-    upload2: 'url(../image/upload_button_2.svg) no-repeat'
+    upload1: 'url(./image/upload_button_1.svg) no-repeat',
+    upload2: 'url(./image/upload_button_2.svg) no-repeat'
 }
 
 btnUpload1.addEventListener('click', () => triggerInput(input1));
