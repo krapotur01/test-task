@@ -1,0 +1,8 @@
+.form__btn-apltn_disabled {
+    background-color: grey;
+    cursor: auto;
+}
+
+.form__btn-apltn_disabled:hover {
+    opacity: 1;
+}

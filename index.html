@@ -24,8 +24,8 @@
                         <p class="form__paragraph">два файла с заявлением на апелляцию</p>
                     </div>
                     <div class="form__btns">
-                        <div class="form__btn form__download_btn-1"></div>
-                        <div class="form__btn form__download_btn-2"></div>
+                        <button type="button" class="form__btn form__download_btn-1"></button>
+                        <button type="button" class="form__btn form__download_btn-2"></button>
                     </div>
                 </div>
                 <div class="form__items">
@@ -34,15 +34,17 @@
                         <p class="form__paragraph">заполненные заявления</p>
                     </div>
                     <div class="form__btns">
-                        <div class="form__btn form__upload_btn-1"></div>
-                        <div class="form__btn form__upload_btn-2"></div>
+                        <input type="file" id="file1" class="input">
+                        <input type="file" id="file2" class="input">
+                        <button type="file" class="form__btn form__upload_btn-1"></button>
+                        <button type="button" class="form__btn form__upload_btn-2"></button>
                     </div>
                 </div>
                 <div class="form__items">
                     <h3 class="form__heding">ОПЛАТИТЕ</h3>
                     <p class="form__paragraph">подачу апелляции</p>
                     <p class="form__paragraph_red">Стоимость апелляции - 7700 ₽</p>
-                    <button class="form__btn-apltn">Оплата апелляции</button>
+                    <button type="submit" class="form__btn-apltn form__btn-apltn_disabled" disabled>Оплата апелляции</button>
                 </div>
             </section>
             <section class="info">
@@ -53,5 +55,6 @@
                 </p>
             </section>
         </main>
+        <script src="./pages/index.js"></script>
     </body>
 </html>

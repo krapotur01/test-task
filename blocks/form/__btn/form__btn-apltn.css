@@ -8,4 +8,9 @@
     font-size: 11px;
     color: #fff;
     border: none;
+    cursor: pointer;
+}
+
+.form__btn-apltn:hover {
+    opacity: 0.6;
 }

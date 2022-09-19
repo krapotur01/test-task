@@ -14,12 +14,14 @@
 @import url(../blocks/form/__paragraph/form__paragraph.css);
 @import url(../blocks/form/__paragraph/form__paragraph_red.css);
 @import url(../blocks/form/__btn/form__btn-apltn.css);
+@import url(../blocks/form/__btn/form__btn-apltn_disabled.css);
 @import url(../blocks/form/__btn/form__btn.css);
 @import url(../blocks/form/__btn/form__btns.css);
 @import url(../blocks/form/__btn/form__download_btn-1.css);
 @import url(../blocks/form/__btn/form__download_btn-2.css);
 @import url(../blocks/form/__btn/form__upload_btn-1.css);
 @import url(../blocks/form/__btn/form__upload_btn-2.css);
+@import url(../blocks/form/__btn/input.css);
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__paragraph/info__paragraph.css);
 
